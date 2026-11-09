@@ -134,6 +134,33 @@
         </main>
     </div>
 
+
+
+
+
+
+<div class="row my-5">
+    
+    <!-- COLUMNA IZQUIERDA: Requisitos escritos (ocupa 5 espacios) -->
+    <div class="col-md-5">
+        <h2 class="fw-bold mb-4">Formulari de contacte</h2>
+        <ul>
+            <li>Tots els camps són required</li>
+            <li>S'ha de comprovar el format correcte del correu electrònic abans d'enviar el formulari</li>
+            <li>El formulari ha de ser tipus <strong>submit</strong></li>
+        </ul>
+    </div>
+
+    <!-- COLUMNA DERECHA: Empezamos el formulario (ocupa 7 espacios) -->
+    <div class="col-md-7">
+        <!-- El id="formulari" y el onsubmit="cridaSubmit1(event)" los pide tu segunda imagen -->
+        <form id="formulari" onsubmit="cridaSubmit1(event)">
+
+
+
+
+
+
     <form>
         <div class="mb-3">
             <label for="exemplecorreu" class="form-label">Correu</label>
@@ -146,7 +173,7 @@
                 <input type="password" class="form-control" id="Contrasenya">
         </div>
 
-        <div class="mb-3 form-check">
+        <div class="mb-3 form-check"> 
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
